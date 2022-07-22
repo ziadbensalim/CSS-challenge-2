@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 h1,
 h2,
 h3 {
@@ -9,6 +14,7 @@ h3 {
   font-style: normal;
   background-color: #f7f7f7;
   text-align: center;
+  padding: 10px 20px;
 }
 p {
   color: black;
@@ -31,12 +37,32 @@ button {
   font-size: medium;
   color: #ffebcd;
   background-color: #000000;
+  width: 825px;
+  height: 51px;
 }
 button:hover {
   font-size: medium;
   color: #000000;
   background-color: #ffebcd;
 }
-body {
-  border: 10px rgb(35, 35, 35) solid;
+.price-free {
+  margin-top: 5px;
+  margin-bottom: 25px;
 }
+li {
+  margin-top: 15px;
+  margin-left: 18px;
+  margin-bottom: 10px;
+  list-style: square;
+}
+h3 {
+  font-weight: bold;
+  margin-top: 25px;
+}
+.link {
+  margin-top: 10px;
+}
+.container {
+  width: 825px;
+  border: 9px rgb(35, 35, 35) solid;
+  margin: 40px auto;
